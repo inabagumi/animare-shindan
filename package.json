@@ -40,7 +40,7 @@
     "typescript": "~3.5.3"
   },
   "engines": {
-    "node": "^10.13.0"
+    "node": "^v10.16.2"
   },
   "eslintConfig": {
     "extends": [
