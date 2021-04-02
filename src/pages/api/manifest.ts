@@ -4,7 +4,6 @@ import favicon192x192 from '../../assets/favicon-192x192.png'
 import favicon512x512 from '../../assets/favicon-512x512.png'
 
 const handler: NextApiHandler<WebAppManifest> = (_req, res) => {
-  res.setHeader('Cache-Control', 'max-age=60, s-maxage=120')
   res.setHeader('Content-Type', 'application/manifest+json')
   res.status(200).json({
     background_color: '#fff',
