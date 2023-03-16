@@ -18,7 +18,6 @@ import { getAnalysisResult, getAnalysisResultIDs } from '../../lib/analysis'
 import { createTweetURL } from '../../lib/share'
 import pkg from '../../package.json'
 
-
 function createYouTubeEmbedURL(url: string): string {
   const { pathname, searchParams } = new URL(url)
 
