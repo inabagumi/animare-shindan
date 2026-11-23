@@ -26,7 +26,7 @@ export default function StaticLayout({ children }: Props): JSX.Element {
           <ul className="m-0 flex list-none gap-2 p-0">
             <li className="block">
               <a
-                className="flex size-11 items-center justify-center rounded-full bg-white transition-[box-shadow,translate] duration-150 hover:shadow-[0_4px_0_rgb(0_0_0/0.2)] active:shadow-none motion-safe:hover:-translate-y-0.5 motion-safe:active:translate-y-0 sm:size-12"
+                className="flex size-11 items-center justify-center rounded-full bg-white transition-[box-shadow] duration-150 hover:shadow-[0_4px_0_rgb(0_0_0/0.2)] active:shadow-[inset_0_3px_0_rgb(0_0_0/0.2)] sm:size-12"
                 href={createTweetURL(new URL("/", pkg.homepage).toString())}
                 rel="noopener noreferrer"
                 target="_blank"
@@ -43,7 +43,7 @@ export default function StaticLayout({ children }: Props): JSX.Element {
             </li>
             <li className="block">
               <a
-                className="flex size-11 items-center justify-center rounded-full bg-white transition-[box-shadow,translate] duration-150 hover:shadow-[0_4px_0_rgb(0_0_0/0.2)] active:shadow-none motion-safe:hover:-translate-y-0.5 motion-safe:active:translate-y-0 sm:size-12"
+                className="flex size-11 items-center justify-center rounded-full bg-white transition-[box-shadow] duration-150 hover:shadow-[0_4px_0_rgb(0_0_0/0.2)] active:shadow-[inset_0_3px_0_rgb(0_0_0/0.2)] sm:size-12"
                 href={createLineShareURL(new URL("/", pkg.homepage).toString())}
                 rel="noopener noreferrer"
                 target="_blank"

@@ -1,12 +1,12 @@
 import "./globals.css";
 import { SerwistProvider } from "@serwist/turbopack/react";
 import { Analytics } from "@vercel/analytics/next";
+import { cn } from "cn";
 import type { Metadata } from "next";
 import { Noto_Sans_JP } from "next/font/google";
 import { Suspense } from "react";
 import type { JSX } from "react";
 
-import { cn } from "@/lib/utils";
 import pkg from "@/package.json";
 
 import ReleaseLink from "./release-link";

@@ -1,3 +1,4 @@
+import { cn } from "cn";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { Suspense } from "react";
@@ -6,7 +7,6 @@ import type { HTMLAttributes, JSX, ReactNode } from "react";
 import { ButtonLink, ExternalButtonLink } from "@/components/button";
 import { getAnalysisResult, getAnalysisResultIDs } from "@/lib/analysis";
 import { createTweetURL } from "@/lib/share";
-import { cn } from "@/lib/utils";
 import pkg from "@/package.json";
 
 import nanashiAvatar from "./avatar.svg";

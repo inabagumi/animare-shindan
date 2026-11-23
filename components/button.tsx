@@ -1,7 +1,6 @@
+import { cn } from "cn";
 import Link from "next/link";
 import type { ComponentProps, JSX } from "react";
-
-import { cn } from "@/lib/utils";
 
 const variants = {
   /** A filled blue button on a white surface. */
@@ -23,9 +22,9 @@ const variants = {
 } as const;
 
 const sizes = {
-  lg: "min-h-14 text-lg sm:min-h-18 sm:text-2xl",
-  md: "min-h-14 text-base sm:text-lg",
-  sm: "min-h-11 px-5 py-1 text-sm sm:text-base",
+  lg: "min-h-14 text-lg/snug sm:min-h-18 sm:text-2xl/snug",
+  md: "min-h-14 text-base/snug sm:text-lg/snug",
+  sm: "min-h-11 px-5 py-1 text-sm/snug sm:text-base/snug",
 } as const;
 
 export interface ButtonVariantProps {
@@ -43,7 +42,7 @@ export const buttonVariants = ({
   variant = "primary",
 }: ButtonVariantProps & { className?: string } = {}): string =>
   cn(
-    "mx-auto flex w-full items-center justify-center gap-1 rounded-full border-3 border-solid px-6 py-2 text-center leading-snug font-bold no-underline transition-[background-color,border-color,color,box-shadow,translate,opacity,visibility] duration-150 ease-out hover:shadow-[0_4px_0_rgb(0_0_0/0.2)] active:shadow-none disabled:cursor-default disabled:opacity-60 motion-safe:hover:-translate-y-0.5 motion-safe:active:translate-y-px",
+    "mx-auto flex w-full items-center justify-center gap-1 rounded-full border-3 border-solid px-6 py-2 text-center font-bold no-underline transition-[background-color,border-color,color,box-shadow,opacity,visibility] duration-150 ease-out hover:shadow-[0_4px_0_rgb(0_0_0/0.2)] active:shadow-[inset_0_3px_0_rgb(0_0_0/0.2)] disabled:cursor-default disabled:opacity-60",
     variants[variant],
     sizes[size],
     className

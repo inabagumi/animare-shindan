@@ -1,7 +1,7 @@
+import { cn } from "cn";
 import type { JSX } from "react";
 
 import type { ResultParameter } from "@/lib/analysis";
-import { cn } from "@/lib/utils";
 
 interface Props {
   parameters: ResultParameter[];
