@@ -16,7 +16,7 @@ export default function NotFound(): JSX.Element {
         404 Not found
       </h1>
 
-      <p className="mt-3 text-center text-sm sm:text-base">
+      <p className="mt-3 text-center text-sm break-auto-phrase sm:text-base">
         おさがしのページを見つけることができませんでした。
       </p>
 

@@ -26,12 +26,12 @@ export default function Home(): JSX.Element {
     <>
       <h1 className="m-0 flex flex-col items-center justify-center text-center leading-[1.4] font-bold tracking-wide">
         <span className="block text-xl sm:text-2xl">アナタの</span>
-        <span className="block text-[clamp(2rem,10vw,2.875rem)]">
+        <span className="block text-[clamp(1.75rem,8.5vw,2.875rem)] break-keep">
           オタクタイプ診断
         </span>
       </h1>
 
-      <p className="mt-5 text-center text-sm leading-[1.7] tracking-wide sm:mt-8 sm:text-base sm:leading-[1.8]">
+      <p className="mt-5 text-center text-sm leading-[1.7] tracking-wide break-auto-phrase sm:mt-8 sm:text-base sm:leading-[1.8]">
         アナタの隠されたオタクタイプを徹底診断!
         <br />
         アナタにマッチするVTuberの、

@@ -8,18 +8,18 @@ const variants = {
   brand:
     "border-brand bg-brand text-white hover:border-brand-strong hover:bg-brand-strong",
   /** Sky blue outline used for secondary calls to action. */
-  outline: "border-4 border-sky bg-white text-brand-strong hover:bg-sky/10",
+  outline: "border-4 border-sky bg-white text-brand-strong hover:bg-sky-tint",
   /** The main call to action. */
   primary: "border-4 border-ink bg-brand text-white hover:bg-brand-strong",
   /** A less prominent action such as "try again" or "back". */
-  secondary: "border-brand bg-white text-brand-strong hover:bg-brand/10",
+  secondary: "border-brand bg-white text-brand-strong hover:bg-brand-tint",
   /** Sharing to social networks. */
   share:
     "border-share bg-share text-white hover:border-brand-strong hover:bg-brand-strong",
   /** Calls to action on the brand blue background. */
   sun: "border-sun bg-sun font-black text-ink hover:border-[#f9a825] hover:bg-[#f9a825]",
   /** A neutral action on a white surface. */
-  subtle: "border-line bg-white text-muted hover:border-bar hover:bg-line/50",
+  subtle: "border-line bg-white text-muted hover:border-bar hover:bg-line-tint",
 } as const;
 
 const sizes = {

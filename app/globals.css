@@ -13,6 +13,12 @@
   --color-highlight: #fff263;
   --color-share: #1d7fc8;
 
+  /* Opaque tints for hover states (the page background must not show through) */
+  --color-brand-tint: #e6f3fe;
+  --color-sky-tint: #e8f8ff;
+  --color-highlight-tint: #fffac1;
+  --color-line-tint: #f6f6f6;
+
   /* Neutral colors */
   --color-ink: #000;
   --color-line: #ececec;
@@ -71,7 +77,7 @@
 @layer base {
   /* A focus ring that stays visible on both the blue background and white surfaces. */
   :focus-visible {
-    @apply ring-6 ring-highlight outline-3 outline-offset-3 outline-ink;
+    @apply ring-3 ring-highlight outline-3 outline-offset-3 outline-ink;
   }
 
   /* Elements that only receive the focus programmatically (e.g. headings). */

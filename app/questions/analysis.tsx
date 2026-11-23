@@ -170,7 +170,7 @@ const Answer = ({ question, show = false }: AnswerProps): JSX.Element => {
 
       {question.answers.map((answer, i) => (
         <button
-          className="flex min-h-17.5 w-full items-center justify-start rounded-2xl border-3 border-ink bg-white px-5 py-3 text-left text-base leading-[1.4] font-bold break-words text-ink transition-[background-color,box-shadow,translate] duration-150 ease-out hover:bg-highlight/40 hover:shadow-[0_4px_0_rgb(0_0_0/0.2)] active:bg-highlight disabled:cursor-default motion-safe:hover:-translate-y-0.5 motion-safe:active:translate-y-px sm:min-h-21.5 sm:text-xl sm:leading-[1.6]"
+          className="flex min-h-17.5 w-full items-center justify-start rounded-2xl border-3 border-ink bg-white px-5 py-3 text-left text-base leading-[1.4] font-bold break-words text-ink transition-[background-color,box-shadow,translate] duration-150 ease-out hover:bg-highlight-tint hover:shadow-[0_4px_0_rgb(0_0_0/0.2)] active:bg-highlight disabled:cursor-default motion-safe:hover:-translate-y-0.5 motion-safe:active:translate-y-px sm:min-h-21.5 sm:text-xl sm:leading-[1.6]"
           disabled={analyzing}
           key={`answer-${i}`}
           onClick={handleClickAnswer}
