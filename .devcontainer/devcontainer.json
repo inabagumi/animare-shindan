@@ -10,7 +10,7 @@
     "memory": "8gb",
     "storage": "32gb"
   },
-  "image": "mcr.microsoft.com/devcontainers/typescript-node:1-18-bookworm",
+  "image": "mcr.microsoft.com/devcontainers/typescript-node:26-bookworm",
   "name": "AniMare Shindan",
-  "postCreateCommand": "sudo npm uninstall -g pnpm && sudo corepack enable && pnpm install"
+  "postCreateCommand": "sudo npm uninstall -g pnpm && sudo npm install -g corepack && sudo corepack enable && pnpm install"
 }
