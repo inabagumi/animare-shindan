@@ -28,7 +28,7 @@
     "prettier": "~3.10.1",
     "prisma": "^7.10.1",
     "serwist": "^9.5.15",
-    "typescript": "~6.0.3",
+    "typescript": "~7.0.2",
     "typescript-eslint": "^8.73.0"
   },
   "devEngines": {
